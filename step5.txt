@@ -1,0 +1,15 @@
+Enter Command: connect ws://localhost:9002
+> Created connection with id 0
+Enter Command: close 0 1001 example message
+Enter Command: show 0
+> URI: ws://localhost:9002
+> Status: Closed
+> Remote Server: WebSocket++/0.4.0
+> Error/close reason: close code: 1001 (Going away), close reason:  example message
+Enter Command: connect ws://localhost:9002
+> Created connection with id 1
+Enter Command: close 1 1006
+> Error initiating close: Invalid close code used
+Enter Command: quit
+> Closing connection 1
+

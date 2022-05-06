@@ -1,0 +1,19 @@
+Enter Command: connect not a websocket uri
+> Connect initialization error: invalid uri
+Enter Command: show 0
+> Unknown connection id 0
+Enter Command: connect ws://echo.websocket.org
+> Created connection with id 0
+Enter Command: show 0
+> URI: ws://echo.websocket.org
+> Status: Open
+> Remote Server: Kaazing Gateway
+> Error/close reason: N/A
+Enter Command: connect ws://wikipedia.org
+> Created connection with id 1
+Enter Command: show 1
+> URI: ws://wikipedia.org
+> Status: Failed
+> Remote Server: Apache
+> Error/close reason: Invalid HTTP status.
+
